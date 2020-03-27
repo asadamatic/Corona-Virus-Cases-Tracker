@@ -7,7 +7,7 @@ root = Tk()
 
 root.title('2020 coronavirus pandemic in Pakistan')
 
-root.iconbitmap(r'D:\Python Projects\GitHub\Corona Cases tracker\Resources\virus.ico')
+root.iconbitmap('virus.ico')
 
 confirmedCasesText = StringVar()
 deathsText = StringVar()
